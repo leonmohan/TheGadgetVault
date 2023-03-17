@@ -1,0 +1,131 @@
+/* Main container */
+#account-form-container
+{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#account-form-container *
+{
+    font-family: 'Bungee', Arial, Helvetica, sans-serif;
+}
+
+/* Form */
+#account-form
+{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#account-form-validation
+{
+    color: red;
+    margin: auto;
+}
+
+#account-info-loading
+{
+    width: 30%;
+    margin: auto;
+}
+
+/* Form text */
+#account-username
+{
+    font-weight: bold;
+}
+
+/* Form input */
+.account-input-container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.account-input-button
+{
+    margin-left: auto;
+    width: 50%;
+    height: 75px;
+}
+
+.account-input-text
+{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 50%;
+}
+
+/* Submit button */
+#account-submit-button
+{
+    margin-top: 20px;
+}
+
+#account-submit-button > button
+{
+    width: 100%;
+}
+
+/* Large buttons */
+#account-logout-button
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+#account-orders-button
+{
+    width: 100%;
+    height: 70px;
+}
+
+@media screen and (max-width:530px)
+{   
+    /* Form */
+    #account-form
+    {
+        width: 100%;
+    }
+
+    .account-input-container
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .account-input-field
+    {
+        width: 208px;
+    }
+
+    .account-input-text
+    {
+        width: 215px;
+    }
+
+    .account-input-button
+    {
+        width: 30%;
+        font-size: 9px;
+        height: 80px;
+        margin-left: 0;
+    }
+
+    /* Form submit button */
+    #account-submit-button > button
+    {
+        font-size: 100%;
+        margin-bottom: 10px;
+    }
+}

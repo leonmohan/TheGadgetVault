@@ -1,0 +1,247 @@
+#product-main-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 130px auto 0 auto;
+    width: 100%;
+}
+
+/* Information container */
+#product-info-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+/* Information Images */
+#product-main-img
+{
+    width: 600px;
+    height: 600px;
+}
+
+#product-images-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+#product-images-container *
+{
+    width: 100px;
+    height: 200px;
+    margin: 5px;
+}
+
+.product-image
+{
+    border: 1px solid transparent;
+    opacity: 0.5;
+}
+
+.product-image-selected
+{
+    opacity: 1;
+    border: 1px solid transparent;
+    border: 1px solid black;
+}
+
+.product-image:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Information text */
+#product-text-information-container
+{
+    font-family: 'Bungee', Arial, Helvetica, sans-serif;
+    width: 25%;
+    text-align: center;
+    flex-direction: column;
+    overflow-wrap: break-word;
+}
+
+#product-text-information-container *
+{
+    margin: 0;
+    color: #0f6096;
+}
+
+#product-text-review-count
+{
+    font-size: 10px;
+}
+
+#product-text-description
+{
+    font-size: 14px;
+    padding: 20px;
+}
+
+/* Add to cart */
+#product-add-cart-button
+{
+    font-family: 'Bungee', Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#product-text-title, #product-text-review-count, #product-text-price
+{
+    color: black;
+}
+
+#product-validations-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#form-loading
+{
+    display: none;
+    width: 50px;
+}
+
+#loading-gif
+{
+    width: 25%;
+    margin: auto;
+}
+
+
+@media screen and (max-width:1700px)
+{
+    #product-main-container
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 130px auto 0 auto;
+        width: 100%;
+    }
+    
+    /* Information container */
+    #product-info-container
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Information Images */
+    #product-main-img
+    {
+        width: 800px;
+        height: 800px;
+        margin: auto;
+    }
+    
+    #product-images-container
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        height: 180px;
+        overflow-y: auto;
+    }
+    
+    #product-images-container *
+    {
+        height: 90%;
+        width: 150px;
+    }
+
+    .product-image
+    {
+        border: 1px solid transparent;
+        opacity: 0.5;
+    }
+    
+    .product-image-selected
+    {
+        opacity: 1;
+        border: 1px solid transparent;
+        border: 1px solid black;
+    }
+    
+    .product-image:hover
+    {
+        opacity: 1;
+        cursor: pointer;
+    }
+    
+    /* Information text */
+    #product-text-information-container
+    {
+        font-family: 'Bungee', Arial, Helvetica, sans-serif;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        overflow-wrap: break-word;
+    }
+    
+    #product-text-information-container *
+    {
+        margin: 0;
+    }
+    
+    #product-text-review-count
+    {
+        font-size: 10px;
+    }
+    
+    #product-text-description
+    {
+        font-size: 14px;
+    }
+    
+    /* Add to cart */
+    #product-add-to-cart-button
+    {
+        font-family: 'Bungee', Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:850px)
+{
+    #product-main-img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    #product-images-container
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 180px;
+        overflow-y: auto;
+    }
+
+    #product-images-container *
+    {
+        height: 60%;
+        width: 100%;
+        margin: auto;
+    }
+}

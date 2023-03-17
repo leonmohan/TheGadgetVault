@@ -1,0 +1,70 @@
+/* Main container */
+#createaccount-main-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 90px 0 50px 0;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+#createaccount-main-container *
+{
+    font-family: 'Bungee', Arial, Helvetica, sans-serif;
+}
+
+#createaccount-title
+{
+    color: #0f5686;
+    margin-bottom: 0;
+}
+
+/* Error message */
+#createaccount-error
+{
+    color: red;
+}
+
+#createaccount-form-loading
+{
+    width: 50px;
+    margin: 0;
+    display: none;
+}
+
+/* Form */
+#createaccount-form
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+}
+
+#createaccount-form *
+{
+    height: 50px;
+    font-size: 15px;
+}
+
+#createaccount-username:hover, #createaccount-password:hover, #createaccount-email:hover, #createaccount-signup-button:hover
+{
+    border: 2px solid #0f5686;
+    background-color: #e7e7e7;
+}
+
+#createaccount-signup-button
+{
+    color: #137DC5;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1165px)
+{
+    #createaccount-form
+    {
+        width: 60%;
+    }
+}

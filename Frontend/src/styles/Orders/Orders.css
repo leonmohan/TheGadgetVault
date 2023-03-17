@@ -1,0 +1,70 @@
+/* Main container */
+#orders-main-container
+{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#orders-main-container *
+{
+    font-family: 'Bungee';
+}
+
+#orders-main-container p
+{
+    margin: 0;
+}
+
+#orders-history-title
+{
+    color: #0f5f96;
+    font-size: 45px;
+}
+
+#orders-no-items
+{
+    color: black;
+    font-size: 40px;
+}
+
+/* Order container */
+.order-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 5px solid black;
+    margin-top: 10px;
+}
+
+/* Order products */
+.order-products
+{
+    display: flex;
+    width: 100%;
+    overflow-y: auto;
+}
+
+/* Container product */
+.order-product
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.order-product img
+{
+    width: 200px;
+    height: 200px;
+}
+
+.order-product p
+{
+    overflow-y: auto;
+    height: 100px;
+}

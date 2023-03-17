@@ -1,0 +1,40 @@
+/* Featured product */
+.home-onsale-product
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: white;
+    text-decoration: none;
+    color: #0f5f96;
+    height: 75%;
+    width: 200px;
+    z-index: 1;
+}
+
+
+.home-onsale-product-title
+{
+    font-size: 13px;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    bottom: 70px;
+    margin: 0;
+}
+
+.home-onsale-product-reviews
+{
+    font-size: 10px;
+}
+
+.home-onsale-product-image
+{
+    width: 200px;
+}

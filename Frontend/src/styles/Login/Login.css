@@ -1,0 +1,73 @@
+/* Full section container */
+#login-container
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bungee', Arial, Helvetica, sans-serif;
+}
+
+#login-container *
+{
+    font-family: 'Bungee', Arial, Helvetica, sans-serif;
+}
+
+/* Validation span */
+#login-form-validation{
+    color: red;
+}
+
+/* Form container */
+#login-form-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Form tag */
+#login-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#login-form *
+{
+    height: 50px;
+    font-size: 15px;
+}
+
+/* Form content */
+#login-form-login-title
+{
+    color: #0f5686;
+    margin: 0 0 15px 0;
+    font-size: 25px;
+}
+
+#login-form-login-button, #login-form-create-account-button
+{
+    color: #137DC5;
+    height: 50px;
+    cursor: pointer;
+}
+
+#login-form-username:hover, #login-form-password:hover, #login-form-login-button:hover, #login-form-create-account-button:hover
+{
+    border: 2px solid #0f5686;
+    background-color: #e7e7e7;
+}
+
+@media screen and (max-width:1165px)
+{
+    #login-form-container
+    {
+        width: 60%;
+    }
+}

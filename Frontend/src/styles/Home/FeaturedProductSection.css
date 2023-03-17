@@ -1,0 +1,107 @@
+#home-featured-products-main-container-mobile
+{
+    display: none;
+}
+
+/* Main container */
+#home-featured-products-main-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    font-family: 'Bungee Inline', Arial, Helvetica, sans-serif;
+}
+
+/* Title of section */
+#home-featured-products-main-container > h3
+{
+    font-family: 'Bungee Spice', Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 4vw;
+    text-align: center;
+}
+
+/* Products container */
+.home-featured-products-container
+{
+    font-family: 'Bungee', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.home-featured-product
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: 3px solid;
+    transition: border 300ms;
+}
+
+.home-featured-product:hover
+{
+    border: 3px solid orangered;
+}
+
+.home-featured-product-image
+{
+    width: 200px;
+    margin: auto;
+}
+
+
+.home-featured-product-title
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-width:1165px) 
+{
+    #home-featured-products-main-container
+    {
+        display: none;
+    }
+
+    #home-featured-products-main-container-mobile
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    #home-featured-products-main-container-mobile > h3
+    {
+        width: 100%;
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        font-family: 'Bungee Spice', Arial, Helvetica, sans-serif;
+        font-size: max(50px);
+        text-align: center;
+    }
+
+    #home-featured-products-products
+    {
+        display: flex;
+        background-color: black;
+        overflow-x: scroll;
+        font-family: 'Bungee';
+    }
+
+    .home-featured-product
+    {
+        width: 200px;
+    }
+}

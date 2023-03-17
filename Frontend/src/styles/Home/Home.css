@@ -1,0 +1,19 @@
+body
+{
+    background-color: #e6e6e6;
+}
+
+#featured-products-loading, #onsale-products-loading
+{
+    text-align: center;    
+}
+
+#featured-products-loading
+{
+    background-color: black;
+}
+
+#onsale-products-loading
+{
+    background-color: lightblue;
+}

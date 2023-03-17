@@ -1,0 +1,22 @@
+#returns-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3px;
+    margin-top: 90px;
+    font-family: 'Bungee', Arial, Helvetica, sans-serif;
+    overflow: scroll;
+}
+
+#returns-desc-container
+{
+    margin: auto;
+    width: 100%;
+    font-size: 10px;
+}
+
+#returns-desc-reminder
+{
+    color: red;
+    font-size: 15px;
+}
